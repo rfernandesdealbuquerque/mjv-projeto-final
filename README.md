@@ -37,7 +37,7 @@ A API possui uma documentação disponível no Swagger, acessível no link: http
 - Spring Boot
 - JPA Hibernate
 - PostgreSQL
-- Astah Community
+- Astah
 - Eclipse IDE
 
 O projeto foi desenvolvido em Java, utilizando Spring Boot framework. Foi utilizado Spring Data JPA  para implementar a camada de persistência dos dados e o banco de dados PostgreSQL.
@@ -154,6 +154,24 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
 ```
 
 * Alterando o `email` e `endereco` do Cadastro RODRIGO DE ALBUQUERQUE (alterarCadastro)
+
+```
+{
+  "nome": "RODRIGO DE ALBUQUERQUE",
+  "cpf": "178.955.437-99",
+  "dataNascimento": "2000-06-27",
+  "whatsapp": "+5521997436556",
+  "email": "novoemail@gmail.com",
+  "endereco": {
+    "logradouro": "RUA DOS BAOBAS",
+    "numero": "1901",
+    "complemento": "CASA 9",
+    "cidade": "BELO HORIZONTE",
+    "estado": "MG",
+    "cep": "22354-031"
+  }
+}
+```
 
 * Listando todos os Cadastros (listarTodos)
 
