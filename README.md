@@ -4,10 +4,11 @@
 <h1 align="center">Loja Itens de Aventura - Projeto Final da MJV School Java</h1>
 
 ## 🐣 Introdução
-Neste repositório está armazenado o código-fonte do Projeto Final desenvolvido para a MJV School Java.
+Este repositório foi criado para armazenar o código-fonte do Projeto Final desenvolvido para a MJV School Java e hospedar a API no Heroku.
+
+O projeto foi desenvolvido originalmente no repositório https://github.com/rodrigoflu/mjv-java-school/tree/main/aventura-itens. Favor acessar link para ver todos os commits e ter mais informações. 
 
 O Projeto Final consiste em considerarmos um contexto hipotético (criado pelo próprio aluno) para aplicar o conhecimento adquirido durante a School. 
-
 
 ## 💭 Contexto 
 Seu João foi um amante de aventuras a sua vida inteira. Porém, com a idade, não pode mais fazer atividades radicais. Há alguns anos atrás, decidiu abrir uma pequena loja de itens de aventura para se manter perto de sua paixão e potencializar outros amantes de adrenalina. Hoje, seu João está expandindo o seu negócio e quer realizar novas parcerias para disponibilizar os seus produtos em outras lojas.
@@ -43,9 +44,9 @@ O projeto foi desenvolvido em Java, utilizando Spring Boot framework. Foi utiliz
 
 ## 🚀 Como utilizar
 
-A API foi hospedada na plataforma Heroku. A Endpoint base é: 
+A API foi hospedada na plataforma Heroku. A Endpoint base é: https://rodrigo-aventura-itens-api.herokuapp.com/
 
-A API possui uma documentação disponível no Swagger, acessível no link: 
+A API possui uma documentação disponível no Swagger, acessível no link: https://rodrigo-aventura-itens-api.herokuapp.com/swagger-ui/index.html#/
 
 ## ✒️ Desenvolvedor
 
