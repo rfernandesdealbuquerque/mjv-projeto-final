@@ -32,7 +32,8 @@ A API foi hospedada na plataforma Heroku. A Endpoint base é: https://rodrigo-av
 
 A API possui uma documentação disponível no Swagger, acessível no link: https://rodrigo-aventura-itens-api.herokuapp.com/swagger-ui/index.html#/
 
-O banco de dados está accessível no link: https://heroku-data-explorer.herokuapp.com/#/
+O banco de dados está accessível no link: https://heroku-data-explorer.herokuapp.com/#/ ⏩ Login: rodrig20002012@gmail.com | Senha: aventura@10
+
 
 ## 🛠️ Tecnologias & Ferramentas
 - Java (Projeto Maven)
