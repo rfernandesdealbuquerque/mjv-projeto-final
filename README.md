@@ -186,7 +186,7 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
 
 🔐 O sistema deve atualizar o estoque dos produtos refletindo a quantidade que foi subtraída pela compra e calcular o `valorTotal` de cada compra automaticamente.
 
-🔐 Seu João quer manter o histórico de cada `itemComprado` com o `valorUnitário` da venda, a `quantidade` vendida e o `subTotal` no banco de dados.(class`itemComprado`)
+🔐 Seu João quer manter o histórico de cada `itemComprado` com o `valorUnitário` da venda, a `quantidade` vendida e o `subTotal` no banco de dados. (classe modelo`itemComprado`)
 
 * Adicionando uma Compra para o cliente GLEYSON SAMPAIO usando id (adicionarCompra) 
 
