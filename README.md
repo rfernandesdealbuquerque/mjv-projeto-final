@@ -56,7 +56,7 @@ Adicionar texto
 
 ## 📦 Regras de Negocio e Funcionalidades
 
-### 1️⃣ Jornada 1 (Seu Joao) - falando de cada funcionalidade com JSON 
+### 1️⃣ Jornada 1 (Seu João) - falando de cada funcionalidade com JSON 
 
 #### CRIAR e LISTAR Aventuras
 
@@ -121,7 +121,7 @@ Adicionar texto
 }
 ```
 
-### 2️⃣ Jornada 2 (Seu Joao e lojas parceiras) 
+### 2️⃣ Jornada 2 (Seu João e lojas parceiras) 
  
 #### BUSCAR, ADICIONAR E ALTERAR Cadastros
 
