@@ -23,7 +23,7 @@ public class CompraController {
 	
 	@PostMapping("/adicionarCompra")
 	public String adicionarCompra(@RequestBody CompraDto compra) {
-		SendWhatsAppMessage.sendMessage();
+		//SendWhatsAppMessage.sendMessage();
 		return compraService.adicionarCompra(compra);
 	}
 	
