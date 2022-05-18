@@ -26,6 +26,20 @@ Seu João: "Quero um sistema simples e consistente que eu e os meus parceiros po
 
 As lojas parceiras provavelmente já possuem o seu próprio sistema, diferente do da loja de João. Assim, ao disponibilizar os recursos em uma API REST, todas as lojas parceiras podem integrá-lo rapidamente aos seus próprios sistemas, podendo assim gerenciar e interagir também com o negócio de Seu João.
 
+## 🚀 Como utilizar
+
+A API foi hospedada na plataforma Heroku. A Endpoint base é: https://rodrigo-aventura-itens-api.herokuapp.com/
+
+A API possui uma documentação disponível no Swagger, acessível no link: https://rodrigo-aventura-itens-api.herokuapp.com/swagger-ui/index.html#/
+
+## 🛠️ Tecnologias & Ferramentas
+- Java (Projeto Maven)
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- Astah Community
+- Eclipse IDE
+
 ## 📦 Desenvolvimento
 
 Inicialmente foi desenvolvido um Diagrama de classes UML para conceber visualmente a estrutura do projeto:
@@ -36,19 +50,15 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
 
 O projeto foi desenvolvido em Java, utilizando Spring Boot framework. Foi utilizado Spring Data JPA  para implementar a camada de persistência dos dados e o banco de dados PostgreSQL.
 
-## 🛠️ Tecnologias & Ferramentas
-- Java (Projeto Maven)
-- Spring Boot
-- Spring Data JPA
-- PostgreSQL
-- Astah Community
-- Eclipse IDE
+## Estrutura e Pacotes
 
-## 🚀 Como utilizar
+## Regras de Negocio e Funcionalidades
 
-A API foi hospedada na plataforma Heroku. A Endpoint base é: https://rodrigo-aventura-itens-api.herokuapp.com/
+JORNADAS 1 (Seu Joao) - falando de cada funcionalidade com JSON 
 
-A API possui uma documentação disponível no Swagger, acessível no link: https://rodrigo-aventura-itens-api.herokuapp.com/swagger-ui/index.html#/
+
+JORNADAS 2 (Seu Joao e lojas parceiras) - falando de cada funcionalidade com JSON 
+
 
 ## ✒️ Desenvolvedor
 
