@@ -206,14 +206,15 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
   "tipoPagamento": "blabla"
 }
 ```
+* Mostrando compra adicionada no banco de dados.
 
-* Confirmando atualização do estoque dos produtos no banco de dados e mostrando histórico da venda (mesmo se o produto for alterado, o histórico de mantém!)
+* Confirmando atualização do estoque dos produtos e mostrando histórico da venda (mesmo se o produto for alterado, o histórico de mantém!)
 
 * Buscando compras dos Cadastros GLEYSON SAMPAIO e RODRIGO DE ALBUQUERQUE usando id (listarPorCadastro)
 
-* Buscando um compra específica por id (buscarCompra)
+* Buscando uma compra específica por id (buscarCompra)
 
-* Listando todas as compras de itens do Seu João (listar Todas)
+* Listando todas as compras de itens do Seu João (listarTodas)
 
 ## ✒️ Desenvolvedor
 
