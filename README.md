@@ -20,7 +20,7 @@ Seu João foi um amante de aventuras a sua vida inteira. Porém, com a idade, n�
 
 ## ✅ Objetivo
 
-Seu João: "Quero um sistema simples e consistente que eu e os meus parceiros possam utilizar para gerenciar o estoque de produtos, cadastros de clientes e compras realizadas de itens da minha loja. Todas as informações devem ser armazenadas em um banco de dados."
+Seu João: "Quero um sistema simples e consistente que eu e os meus parceiros possamos utilizar para gerenciar o estoque de produtos, cadastros de clientes e compras realizadas de itens da minha loja. Todas as informações devem ser armazenadas em um banco de dados."
 
 ## ❔ Por que uma API REST?
 
