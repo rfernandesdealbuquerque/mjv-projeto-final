@@ -6,7 +6,9 @@
 ## 🐣 Introdução
 Este repositório foi criado para armazenar o código-fonte do Projeto Final desenvolvido para a MJV School Java e hospedar a API no Heroku.
 
-O projeto foi desenvolvido originalmente no repositório https://github.com/rodrigoflu/mjv-java-school/tree/main/aventura-itens. Favor acessar link para ver todos os commits e ter mais informações. 
+💢 O projeto foi desenvolvido originalmente no repositório https://github.com/rodrigoflu/mjv-java-school/tree/main/aventura-itens. 
+
+Favor acessar link acima para ver todos os commits e ter mais informações. 
 
 O Projeto Final consiste em considerarmos um contexto hipotético (criado pelo próprio aluno) para aplicar o conhecimento adquirido durante a School. 
 
