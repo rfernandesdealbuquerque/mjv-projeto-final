@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mjv.projetofinal.aventuraitens.dto.CompraDto;
 import com.mjv.projetofinal.aventuraitens.model.Compra;
 import com.mjv.projetofinal.aventuraitens.service.CompraService;
+import com.mjv.projetofinal.aventuraitens.service.SendWhatsAppMessage;
 
 @RestController
 @RequestMapping("/compras")
@@ -22,6 +23,7 @@ public class CompraController {
 	
 	@PostMapping("/adicionarCompra")
 	public String adicionarCompra(@RequestBody CompraDto compra) {
+		SendWhatsAppMessage.sendMessage();
 		return compraService.adicionarCompra(compra);
 	}
 	
