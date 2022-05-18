@@ -35,7 +35,7 @@ A API possui uma documentação disponível no Swagger, acessível no link: http
 ## 🛠️ Tecnologias & Ferramentas
 - Java (Projeto Maven)
 - Spring Boot
-- Spring Data JPA
+- JPA Hibernate
 - PostgreSQL
 - Astah Community
 - Eclipse IDE
@@ -52,7 +52,11 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
 
 ## 📁 Estrutura e Pacotes
 
-Adicionar texto
+* model
+* service
+* repository
+* controller
+* dto
 
 ## 📦 Regras de Negocio e Funcionalidades
 
@@ -192,7 +196,6 @@ Adicionar texto
 * Buscando um compra específica por id (buscarCompra)
 
 * Listando todas as compras de itens do Seu João (listar Todas)
-
 
 ## ✒️ Desenvolvedor
 
