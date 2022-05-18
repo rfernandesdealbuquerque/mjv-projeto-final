@@ -37,6 +37,11 @@ public class CadastroController {
 		return cadastroService.alterarCadastro(idCadastro, cadastro);
 	}
 	
+	@GetMapping("/buscarPorNome/{Nome}")
+	public List<Cadastro> buscarCadastro(@PathVariable String Nome){
+		return cadastroService.buscarCadastro(Nome);
+	}
+	
 	//@DeleteMapping(value = "deletarCadastro/{idCadastro}")
 	//public String deletarCadastro(@PathVariable Integer idCadastro) {
 		//return cadastroService.deletarCadastro(idCadastro);

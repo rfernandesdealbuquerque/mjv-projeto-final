@@ -1,5 +1,6 @@
 package com.mjv.projetofinal.aventuraitens.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,18 @@ public class CadastroService {
 	
 	public List<Cadastro> listarTodos() {
 		return cadastroRepository.findAll();
+	}
+	
+	public List<Cadastro> buscarCadastro(String nome) {
+		List<Cadastro> cadastros = cadastroRepository.findAll();
+		List<Cadastro> cadastrosBuscados = new ArrayList<Cadastro>();
+		for(Cadastro cadastro : cadastros) {
+			if(cadastro.getNome().contains(nome)) {
+				cadastrosBuscados.add(cadastro);
+			}
+		}
+		return cadastrosBuscados;
+		
 	}
 	public String deletarCadastro(Integer id) {
 		Cadastro cadastroDeletado = cadastroRepository.findById(id).orElse(null);
