@@ -6,7 +6,7 @@
 ## 🐣 Introdução
 Este repositório foi criado para armazenar o código-fonte do Projeto Final desenvolvido para a MJV School Java e hospedar a API no Heroku.
 
-💢 O projeto foi desenvolvido originalmente no repositório https://github.com/rodrigoflu/mjv-java-school/tree/main/aventura-itens. 
+💢 O projeto foi desenvolvido originalmente no repositório: https://github.com/rodrigoflu/mjv-java-school/tree/main/aventura-itens. 
 
 Favor acessar link acima para ver todos os commits e ter mais informações. 
 
@@ -31,6 +31,8 @@ As lojas parceiras provavelmente já possuem o seu próprio sistema, diferente d
 A API foi hospedada na plataforma Heroku. A Endpoint base é: https://rodrigo-aventura-itens-api.herokuapp.com/
 
 A API possui uma documentação disponível no Swagger, acessível no link: https://rodrigo-aventura-itens-api.herokuapp.com/swagger-ui/index.html#/
+
+O banco de dados está accessível no link: https://heroku-data-explorer.herokuapp.com/#/
 
 ## 🛠️ Tecnologias & Ferramentas
 - Java (Projeto Maven)
