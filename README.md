@@ -58,20 +58,22 @@ Adicionar texto
 
 ### 1️⃣ Jornada 1 (Seu Joao) - falando de cada funcionalidade com JSON 
 
-#### Criando uma Aventura
+#### CRIAR e LISTAR Aventuras
 
  🔐 Para Seu João poder adicionar produtos, é preciso criar a aventura associada aos produtos primeiro. 
 
 * Criando Aventura MERGULHO (criarAventura)
+
+* Listando todas as Aventuras (listarAventuras)
 
 ```
 {
   "nomeAventura": "MERGULHO"
 }
 ```
-#### Adicionando e Alterando Produtos
+#### ADICIONAR, ALTERAR e LISTAR Produtos
 
-* Adicionando produtos de MERGULHO (adicionarProduto)
+* Adicionando produtos de MERGULHO usando id (adicionarProduto) 
 
 ```
 {
@@ -101,9 +103,9 @@ Adicionar texto
 }
 ```
 
-* Listando todos os produtos
+* Listando todos os produtos (listarTodos)
 
-* Listando produtos por Aventura
+* Listando produtos por Aventura (listarPorAventura)
 
  🔐 Seu João quer poder alterar diretamente as informações dos produtos de sua loja. Eventualmente, será necessário mudar o preço ou atualizar o estoque dos produtos manualmente.
 
@@ -121,6 +123,76 @@ Adicionar texto
 
 ### 2️⃣ Jornada 2 (Seu Joao e lojas parceiras) 
  
+#### BUSCAR, ADICIONAR E ALTERAR Cadastros
+
+🔐 Seu João gosta de conhecer os seus clientes para criar uma relação com eles. Por isso, só pessoas cadastradas podem comprar seus produtos tanto em sua loja quanto nas parceiras.
+
+* Buscando a existência dos clientes GLEYSON SAMPAIO e RODRIGO DE ALBUQUERQUE (buscarPorNome)
+
+* Adicionando o Cadastro GLEYSON SAMPAIO (adicionarCadastro)
+
+```
+{
+  "nome": "GLEYSON SAMPAIO",
+  "cpf": "345.633.890-87",
+  "dataNascimento": "1987-07-19",
+  "whatsapp": "+5511995764962",
+  "email": "glysns@gmail.com",
+  "endereco": {
+    "logradouro": "RUA DAS FIGUEIRAS",
+    "numero": "165",
+    "complemento": "APT 803",
+    "cidade": "SAO PAULO",
+    "estado": "SP",
+    "cep": "22354-031"
+  }
+}
+```
+
+* Alterando o `email` e `endereco` do Cadastro RODRIGO DE ALBUQUERQUE (alterarCadastro)
+
+* Listando todos os Cadastros (listarTodos)
+
+
+#### ADICIONAR, BUSCAR e LISTAR COMPRAS 
+
+🔐 Só se pode criar uma compra com produtos existentes.
+
+🔐 Só se pode criar uma compra de um cliente cadastrado.
+
+🔐 A forma de pagamento deve ser especificada corretamente, só aceitando `DEBITO`, `CREDITO`, `DINHEIRO` ou `PIX`.
+
+🔐 O sistema deve atualizar o estoque dos produtos refletindo a quantidade que foi subtraída pela compra e calcular o `valorTotal` de cada compra automaticamente.
+
+🔐 Seu João quer manter o histórico de cada `itemComprado` com o `valorUnitário` da venda, a `quantidade` vendida e o `subTotal` no banco de dados.(class`itemComprado`)
+
+* Adicionando uma Compra para o cliente GLEYSON SAMPAIO usando id (adicionarCompra) 
+
+```
+{
+  "idCadastro": 0,
+  "itensComprados": [
+    {
+      "idProduto": 0,
+      "quantidade": 12
+    },
+     {
+      "idProduto": 0,
+      "quantidade": 5
+    }
+  ],
+  "tipoPagamento": "blabla"
+}
+```
+
+* Confirmando atualização do estoque dos produtos no banco de dados e mostrando histórico da venda (mesmo se o produto for alterado, o histórico de mantém!)
+
+* Buscando compras dos Cadastros GLEYSON SAMPAIO e RODRIGO DE ALBUQUERQUE usando id (listarPorCadastro)
+
+* Buscando um compra específica por id (buscarCompra)
+
+* Listando todas as compras de itens do Seu João (listar Todas)
+
 
 ## ✒️ Desenvolvedor
 
