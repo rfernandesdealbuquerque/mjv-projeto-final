@@ -56,10 +56,70 @@ Adicionar texto
 
 ## 📦 Regras de Negocio e Funcionalidades
 
-JORNADAS 1 (Seu Joao) - falando de cada funcionalidade com JSON 
+### Jornada 1 (Seu Joao) - falando de cada funcionalidade com JSON 
 
+#### Criando uma Aventura
 
-JORNADAS 2 (Seu Joao e lojas parceiras) - falando de cada funcionalidade com JSON 
+ 📘 Para Seu João poder adicionar produtos, é preciso criar a aventura associada aos produtos primeiro. 
+
+* Criando Aventura MERGULHO (criarAventura)
+
+```
+{
+  "nomeAventura": "MERGULHO"
+}
+```
+#### Adicionando e Alterando Produtos
+
+* Adicionando produtos de MERGULHO (adicionarProduto)
+
+```
+{
+  "nomeProduto": "MASCARA MERGULHO MORMAII",
+  "descricao": "Tamanho grande e cor verde",
+  "preco": 46.39,
+  "quantidadeEmEstoque": 15,
+  "idAventura": 0
+}
+```
+```
+{
+  "nomeProduto": "PE DE PATO KPALOA",
+  "descricao": "Tamanho medio tipo Tritão",
+  "preco": 99.99,
+  "quantidadeEmEstoque": 20,
+  "idAventura": 0
+}
+```
+```
+{
+  "nomeProduto": "ROUPA DE MERGULHO BODY GLOVE",
+  "descricao": "Tamanho pequeno tecido elástico",
+  "preco": 459.69,
+  "quantidadeEmEstoque": 13,
+  "idAventura": 0
+}
+```
+
+* Listando todos os produtos
+
+* Listando produtos por Aventura
+
+ 📘 Seu João quer poder alterar diretamente as informações dos produtos de sua loja. Eventualmente, será necessário mudar o preço ou atualizar o estoque dos produtos manualmente.
+
+* Alterando o `preco` e `quantidadeEmEstoque` do produto PE DE PATO KPALOA usando o seu `id` (alterarProduto)
+
+```
+{
+  "nomeProduto": "PE DE PATO KPALOA",
+  "descricao": "Tamanho medio tipo Tritão",
+  "preco": 75.55,
+  "quantidadeEmEstoque": 35,
+  "idAventura": 0
+}
+```
+
+### Jornada 2 (Seu Joao e lojas parceiras) - falando de cada funcionalidade com JSON 
 
 
 ## ✒️ Desenvolvedor
