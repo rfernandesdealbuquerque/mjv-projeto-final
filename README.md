@@ -216,6 +216,8 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
 
 * Listando todas as compras de itens do Seu João (listarTodas)
 
+❗ Por que não tem o CRUD DELETE? Por causa das regras de negócio. O cadastro nunca deve ser deletado depois que o cliente realizou alguma compra e o produto só é alterada a quantidade no estoque. Se o produto não tiver disponivel, não se deve deletar o produto mas sim alterar o seu estoque para 0. 
+
 ## ✒️ Desenvolvedor
 
 Rodrigo Fernandes de Albuquerque
