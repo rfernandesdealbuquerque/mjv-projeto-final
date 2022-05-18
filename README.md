@@ -200,7 +200,7 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
     },
      {
       "idProduto": 0,
-      "quantidade": 5
+      "quantidade": 7
     }
   ],
   "tipoPagamento": "blabla"
