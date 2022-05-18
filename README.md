@@ -58,9 +58,9 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
 * controller
 * dto
 
-## 📦 Regras de Negocio e Funcionalidades
+## 📦 Regras de Negocio e Funcionalidades (com JSON)
 
-### 1️⃣ Jornada 1 (Seu João) - falando de cada funcionalidade com JSON 
+### 1️⃣ Jornada 1 (Seu João)  
 
 #### CRIAR e LISTAR Aventuras
 
