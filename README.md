@@ -84,7 +84,7 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
   "nomeProduto": "MASCARA MERGULHO MORMAII",
   "descricao": "Tamanho grande e cor verde",
   "preco": 46.39,
-  "quantidadeEmEstoque": 15,
+  "quantidadeEmEstoque": 100,
   "idAventura": 0
 }
 ```
@@ -93,7 +93,7 @@ Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as
   "nomeProduto": "ROUPA DE MERGULHO BODY GLOVE",
   "descricao": "Tamanho pequeno tecido elástico",
   "preco": 459.69,
-  "quantidadeEmEstoque": 13,
+  "quantidadeEmEstoque": 50,
   "idAventura": 0
 }
 ```
