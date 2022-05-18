@@ -40,7 +40,9 @@ A API possui uma documentação disponível no Swagger, acessível no link: http
 - Astah Community
 - Eclipse IDE
 
-## 📦 Desenvolvimento
+O projeto foi desenvolvido em Java, utilizando Spring Boot framework. Foi utilizado Spring Data JPA  para implementar a camada de persistência dos dados e o banco de dados PostgreSQL.
+
+## 📝 Diagrama UML
 
 Inicialmente foi desenvolvido um Diagrama de classes UML para conceber visualmente a estrutura do projeto:
 
@@ -48,11 +50,11 @@ Inicialmente foi desenvolvido um Diagrama de classes UML para conceber visualmen
 
 Com o Diagrama mapeado, fica mais fácil implementar os relacionamentos entre as entidades do projeto. 
 
-O projeto foi desenvolvido em Java, utilizando Spring Boot framework. Foi utilizado Spring Data JPA  para implementar a camada de persistência dos dados e o banco de dados PostgreSQL.
+## 📁 Estrutura e Pacotes
 
-## Estrutura e Pacotes
+Adicionar texto
 
-## Regras de Negocio e Funcionalidades
+## 📦 Regras de Negocio e Funcionalidades
 
 JORNADAS 1 (Seu Joao) - falando de cada funcionalidade com JSON 
 
